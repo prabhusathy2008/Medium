@@ -4,7 +4,7 @@ import boto3
 # Constants for table and index names, and minimum result count
 TABLE_NAME = 'customer_details'
 INDEX_NAME = 'index_search'
-MINIMUM_RESULT = 1
+MINIMUM_RESULT = 10
 
 # Initialize DynamoDB client
 client = boto3.client('dynamodb')
